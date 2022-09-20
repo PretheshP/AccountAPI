@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "bankingkc-a211"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "bankingkc-a211"
+  template:
+    metadata:
+      labels:
+        app: "bankingkc-a211"
+    spec:
+      containers:
+        - name: "bankingkc-a211"
+          image: "bankingsystemr.azurecr.io/bankingkc"
+          ports:
+          - containerPort: 80
