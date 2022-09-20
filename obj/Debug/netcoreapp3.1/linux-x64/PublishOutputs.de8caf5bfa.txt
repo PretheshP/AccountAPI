@@ -1,0 +1,35 @@
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\Account Microservice
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\log4net.config
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\appsettings.Development.json
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\appsettings.json
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\Account Microservice.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\Account Microservice.deps.json
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\Account Microservice.runtimeconfig.json
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\Account Microservice.pdb
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\log4net.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\System.Net.Http.Formatting.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\System.Web.Http.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\System.Web.Http.WebHost.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\Microsoft.AspNetCore.JsonPatch.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\Microsoft.Extensions.Configuration.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\Microsoft.Extensions.Configuration.Binder.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\Microsoft.Extensions.DependencyInjection.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\Microsoft.Extensions.Logging.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\Microsoft.Extensions.Options.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\Microsoft.Extensions.Primitives.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\Microsoft.OpenApi.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\Microsoft.Web.Infrastructure.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\Newtonsoft.Json.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\Newtonsoft.Json.Bson.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\Swashbuckle.AspNetCore.Swagger.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\Swashbuckle.Core.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\System.Configuration.ConfigurationManager.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\System.Security.Cryptography.ProtectedData.dll
+D:\Retail_Banking_System_MFPE-master\Retail_Banking_System_MFPE-master\Retail Banking System\Account API\Account Microservice\bin\Debug\netcoreapp3.1\publish\WebActivatorEx.dll
