@@ -1,0 +1,50 @@
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    
+    - uses: azure/docker-login@v1
+      with:
+        login-server: bankingcr.azurecr.io
+        username: ${{ secrets.acr_bankingcr_username }}
+        password: ${{ secrets.acr_bankingcr_password }}
+    
+    - name: Build and push image to ACR
+      id: build-image
+      run: |
+        docker build "$GITHUB_WORKSPACE/" -f  "Dockerfile" -t bankingcr.azurecr.io/bankingaks:${{ github.sha }} --label dockerfile-path=Dockerfile
+        docker push bankingcr.azurecr.io/bankingaks:${{ github.sha }}
+    
+    - uses: azure/k8s-set-context@v1
+      with:
+         kubeconfig: ${{ secrets.aks_bankingaks_kubeConfig }}
+      id: login
+    
+    - name: Create namespace
+      run: |
+        namespacePresent=`kubectl get namespace | grep bankingaksb51c | wc -l`
+        if [ $namespacePresent -eq 0 ]
+        then
+            echo `kubectl create namespace bankingaksb51c`
+        fi
+
+    - uses: azure/k8s-create-secret@v1
+      with:
+        namespace: bankingaksb51c
+        container-registry-url: bankingcr.azurecr.io
+        container-registry-username: ${{ secrets.acr_bankingcr_username }}
+        container-registry-password: ${{ secrets.acr_bankingcr_password }}
+        secret-name: bankingaksdockerauth
+       
+    - uses: azure/k8s-deploy@v1.2
+      with:
+        namespace: bankingaksb51c
+        manifests: |
+          manifests/deployment.yml
+          manifests/service.yml
+        images: |
+          bankingcr.azurecr.io/bankingaks:${{ github.sha }}
+        imagepullsecrets: |
+          bankingaksdockerauth
