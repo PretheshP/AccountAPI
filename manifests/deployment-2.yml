@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: "accountkuber-dada"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: "accountkuber-dada"
+  template:
+    metadata:
+      labels:
+        app: "accountkuber-dada"
+    spec:
+      containers:
+        - name: "accountkuber-dada"
+          image: "accountreg.azurecr.io/accountkuber"
+          ports:
+          - containerPort: 80
